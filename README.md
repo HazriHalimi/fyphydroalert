@@ -142,31 +142,36 @@ HydroAlert
 
 ## 🏠 Landing Page
 
-![Landing](screenshots/landing-page.png)
+<img width="1871" height="881" alt="image" src="https://github.com/user-attachments/assets/18bd06f7-b50f-4c81-a0fe-3b54453a7684" />
+
 
 ---
 
 ## 📊 Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+<img width="1359" height="895" alt="image" src="https://github.com/user-attachments/assets/93996204-8079-4eb7-b780-cc0a8f849f4c" />
+
 
 ---
 
 ## 🌧 Rainfall Monitoring
 
-![Rainfall](screenshots/rainfall.png)
+<img width="1334" height="694" alt="image" src="https://github.com/user-attachments/assets/abf26789-471c-4823-bbe4-f6cf60fe19e2" />
+
 
 ---
 
 ## 🌊 Water Level Monitoring
 
-![Water Level](screenshots/waterlevel.png)
+<img width="1357" height="862" alt="image" src="https://github.com/user-attachments/assets/a4e3aacb-17ee-471b-a5b0-80c39e761da5" />
+
 
 ---
 
 ## 🚨 Flood Analysis
 
-![Analysis](screenshots/analysis.png)
+<img width="1309" height="862" alt="image" src="https://github.com/user-attachments/assets/18e8b1f8-392d-474f-be63-58c8366bc564" />
+
 
 ---
 
