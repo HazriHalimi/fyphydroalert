@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    
+    <display-name>HydroAlert System</display-name>
+    
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    
+    <!-- User Register Servlet -->
+    <servlet>
+        <servlet-name>UserRegisterServlet</servlet-name>
+        <servlet-class>servlet.UserRegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserRegisterServlet</servlet-name>
+        <url-pattern>/UserRegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- User Login Servlet -->
+    <servlet>
+        <servlet-name>UserLoginServlet</servlet-name>
+        <servlet-class>servlet.UserLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserLoginServlet</servlet-name>
+        <url-pattern>/UserLoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Admin/Officer Login Servlet -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Add Reading Servlet -->
+    <servlet>
+        <servlet-name>AddReadingServlet</servlet-name>
+        <servlet-class>servlet.AddReadingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddReadingServlet</servlet-name>
+        <url-pattern>/AddReadingServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Delete Reading Servlet -->
+    <servlet>
+        <servlet-name>DeleteReadingServlet</servlet-name>
+        <servlet-class>servlet.DeleteReadingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteReadingServlet</servlet-name>
+        <url-pattern>/DeleteReadingServlet</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Update Reading Servlet -->
+    <servlet>
+        <servlet-name>UpdateReadingServlet</servlet-name>
+        <servlet-class>servlet.UpdateReadingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateReadingServlet</servlet-name>
+        <url-pattern>/UpdateReadingServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Add Officer Servlet -->
+    <servlet>
+        <servlet-name>AddOfficerServlet</servlet-name>
+        <servlet-class>servlet.AddOfficerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddOfficerServlet</servlet-name>
+        <url-pattern>/AddOfficerServlet</url-pattern>
+    </servlet-mapping>
+
+        <!-- Update Officer Servlet -->
+    <servlet>
+        <servlet-name>UpdateOfficerServlet</servlet-name>
+        <servlet-class>servlet.UpdateOfficerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateOfficerServlet</servlet-name>
+        <url-pattern>/UpdateOfficerServlet</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Delete Officer Servlet -->
+    <servlet>
+        <servlet-name>DeleteOfficerServlet</servlet-name>
+        <servlet-class>servlet.DeleteOfficerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteOfficerServlet</servlet-name>
+        <url-pattern>/DeleteOfficerServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Delete User Servlet -->
+    <servlet>
+        <servlet-name>DeleteUserServlet</servlet-name>
+        <servlet-class>servlet.DeleteUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteUserServlet</servlet-name>
+        <url-pattern>/DeleteUserServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Toggle Subscription Servlet -->
+    <servlet>
+        <servlet-name>ToggleSubscriptionServlet</servlet-name>
+        <servlet-class>servlet.ToggleSubscriptionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ToggleSubscriptionServlet</servlet-name>
+        <url-pattern>/ToggleSubscriptionServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Send Alert Servlet -->
+    <servlet>
+        <servlet-name>SendAlertServlet</servlet-name>
+        <servlet-class>servlet.SendAlertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SendAlertServlet</servlet-name>
+        <url-pattern>/SendAlertServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Add Centre Servlet -->
+    <servlet>
+        <servlet-name>AddCentreServlet</servlet-name>
+        <servlet-class>servlet.AddCentreServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCentreServlet</servlet-name>
+        <url-pattern>/AddCentreServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Delete Centre Servlet -->
+    <servlet>
+        <servlet-name>DeleteCentreServlet</servlet-name>
+        <servlet-class>servlet.DeleteCentreServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCentreServlet</servlet-name>
+        <url-pattern>/DeleteCentreServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Centre Servlet -->
+    <servlet>
+        <servlet-name>UpdateCentreServlet</servlet-name>
+        <servlet-class>servlet.UpdateCentreServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateCentreServlet</servlet-name>
+        <url-pattern>/UpdateCentreServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Add Victim Servlet -->
+    <servlet>
+        <servlet-name>AddVictimServlet</servlet-name>
+        <servlet-class>servlet.AddVictimServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddVictimServlet</servlet-name>
+        <url-pattern>/AddVictimServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Victim Servlet -->
+    <servlet>
+        <servlet-name>UpdateVictimServlet</servlet-name>
+        <servlet-class>servlet.UpdateVictimServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateVictimServlet</servlet-name>
+        <url-pattern>/UpdateVictimServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Check Out Victim Servlet -->
+    <servlet>
+        <servlet-name>CheckOutVictimServlet</servlet-name>
+        <servlet-class>servlet.CheckOutVictimServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckOutVictimServlet</servlet-name>
+        <url-pattern>/CheckOutVictimServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Profile Servlet -->
+    <servlet>
+        <servlet-name>UpdateProfileServlet</servlet-name>
+        <servlet-class>servlet.UpdateProfileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateProfileServlet</servlet-name>
+        <url-pattern>/UpdateProfileServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Officer Profile Servlet -->
+    <servlet>
+        <servlet-name>UpdateOfficerProfileServlet</servlet-name>
+        <servlet-class>servlet.UpdateOfficerProfileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateOfficerProfileServlet</servlet-name>
+        <url-pattern>/UpdateOfficerProfileServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
