@@ -43,7 +43,8 @@ HydroAlert is a web-based flood monitoring and early warning system developed as
 
 ## 📷 Screenshots
 
-(Add screenshots here)
+<img width="1874" height="887" alt="image" src="https://github.com/user-attachments/assets/647676b9-5dce-44ed-8615-31124ea83e3f" />
+
 
 ---
 
